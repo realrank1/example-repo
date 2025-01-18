@@ -302,22 +302,16 @@ deltree /y c:\windows\recent
 deltree /y c:\windows\spool\printers
 del c:\WIN386.SWP
 cls 
-@pause
 @echo off
 ipconfig /release
-@pause
 @echo off
 ipconfig /flushds
-@pause
 @echo off
 ipconfig /renew
-@pause
 @echo off
 netsh int ip set dns
-@pause
 @echo off
 netsh winsock reset
-@pause
 @echo on
 bcdedit /set useplatformtick yes
 bcdedit /set useplatformtick yes
