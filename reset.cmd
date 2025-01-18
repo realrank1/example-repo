@@ -8,5 +8,7 @@ ipconfig /release
 cls
 ipconfig /renew
 cls
+taskkill /f /im "F Drop internet.exe"
+cls
 exit
 cls
